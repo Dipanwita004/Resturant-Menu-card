@@ -1,2 +1,2 @@
 # Resturant-Menu-card
-This folder contains HTML code on a typical resturant menu card
+This folder contains HTML and CSS code on a typical resturant menu card
