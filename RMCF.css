@@ -1,0 +1,150 @@
+/* General body styling */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(14, 41, 36);
+    
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    font-family: 'Poppins', sans-serif;
+     /* Choose a modern, clean font */
+    letter-spacing: 2px; /* Increase spacing between letters */
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+
+    
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    padding: 0px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 0;
+    font-size: 45px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+.header-logo {
+    width:200px; /* Set the desired width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 15px; /* Adds space between the image and the text */
+    text-align: left;
+}
+
+
+h2 {
+    
+    font-size: 50px;
+    text-align: center;
+    color: rgb(158, 131, 84); /* our menu word color*/
+    border-bottom: 2px solid rgb(104, 161, 161);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family:cursive;
+    font-size: 24px;
+    color:  rgb(158, 131, 84);
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgb(14, 41, 36);
+    border-radius:10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+
+
+    table th:nth-child(1), table td:nth-child(1) {
+        width: 200px; /* Adjust width for the Image column */
+    }
+    
+    table th:nth-child(2), table td:nth-child(2) {
+        width: 120px; /* Adjust width for the Dish column */
+    }
+    
+    table th:nth-child(3), table td:nth-child(3) {
+        width: 120px; /* Adjust width for the Description column */
+    }
+    
+    table th:nth-child(4), table td:nth-child(4) {
+        width: 120px; /* Adjust width for the Price column */
+    }
+}
+
+table, th, td {
+    border: 5px solid rgb(9, 34, 29);/*table border color*/
+}
+
+th, td {
+    padding:10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(158, 131, 84); /* row head color */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(14, 41, 36);
+}
+
+/* Image styling in tables */
+.menu-image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius:10px;
+}
+
+/* List styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Block element styling */
+p {
+    font-size: 16px;
+}
+
+p span {
+    font-weight: bold;
+    color: #ff6347; /* Tomato color */
+}
+
+/* Footer styling */
+footer {
+    background-color:rgb(20, 30, 38); /* Tomato color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
